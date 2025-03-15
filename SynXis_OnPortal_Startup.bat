@@ -2,8 +2,8 @@
 setlocal enabledelayedexpansion
 
 REM Purpose: To automate the startup process of SynXis and OnPortal
-REM Owner: Christopher Welch
-REM Authorized_User: Super 8 Eldo
+REM Owner:
+REM Authorized_User:
 
 for /f "tokens=1 delims=:" %%A in ("%TIME%") do set HOUR=%%A
 if "%HOUR:~0,1%"=="0" set HOUR=%HOUR:~1%
